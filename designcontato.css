@@ -1,0 +1,24 @@
+@font-face {
+    font-family : "Light";
+    src: url("fonts/AvenirLTStd-Light.otf");
+}
+@font-face {
+    font-family : "Light";
+    src: url("fonts/AvenirLTStd-Light.otf");
+}
+* {
+    font-family: "Light";
+    color: #FFF;
+}
+
+footer{
+    z-index: 2;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.page-footer {
+    padding-top: 0px !important; 
+}

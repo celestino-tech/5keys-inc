@@ -1,0 +1,174 @@
+@font-face {
+    font-family : "Light";
+    src: url("fonts/AvenirLTStd-Light.otf");
+}
+@font-face {
+    font-family : "Light";
+    src: url("fonts/AvenirLTStd-Light.otf");
+}
+* {
+    font-family: "Light";
+    color: #FFF;
+    
+}
+
+.section{
+  padding-bottom: 0rem !important;
+}
+
+.primeiro{
+  margin-left: 20px !important;
+}
+.imgfundo {
+    border-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* body {
+  background-color: #F0FFFF;
+  background-image: url(font/circuits-abstract.jpg);
+  background-size: 
+} */
+/* #section-white{
+  margin-top: 5% !important;
+} */
+
+#carousel-auto{
+  margin-top: -6% !important;
+}
+.padding-collapsible{
+  padding: 0 16px !important;
+}
+.padding-collapsible>a{
+  padding: 0 !important;
+}
+a.subheader>i.material-icons.left{
+  height: auto;
+  line-height: inherit;
+}
+.collapsible li .collapsible-header i.right {
+  transition: transform .2s linear;
+}
+.collapsible li.active .collapsible-header i.right {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.navbar-fixed {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0) !important;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.6rem !important;
+    padding: 0;
+}
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+}
+
+
+
+/* Typewriter JOTARO */
+.typewriter {
+    color: rgb(177, 177, 177) !important;
+    font-family: Light;
+    overflow: hidden;
+    position: absolute;
+    left: 22rem;
+    top: 34%;
+    font-size: 3rem;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid #ff20205d !important;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1em;
+    /* Adjust as needed */
+    animation: typing .1s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 70%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    20% {
+        border-color: #ff20205d
+    }
+}
+.card-content-text{
+  color:#000;
+}
+.character-counter{
+  color: #000;
+}
+.row .col.s12 {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  margin-bottom: 6px !important;
+}
+
+/* Icons-Footer */
+.fb-icon{
+  height: 2rem;
+}
+.insta-icon{
+  height: 2rem;
+}
+.whats-icon{
+  height: 2rem;
+}
+.twitter-icon{
+  height: 2rem;
+}
+
+.diversin2{
+  margin-top: -0.5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78%;
+  height: 34%;
+  margin-left: 63px !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .primeiro, .typewriter{
+    font-size: 50;
+    margin-left: -40rem !important;
+  }
+}
+@media only screen and (max-width: 1072px) {
+
+
+  .primeiro, .typewriter{
+    font-size: 50;
+    margin-left: -40rem !important;
+  }
+}
+
